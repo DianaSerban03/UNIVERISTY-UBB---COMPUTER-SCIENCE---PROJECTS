@@ -1,0 +1,9 @@
+13 Mar 2023 12:54:23,270 INFO  org.example.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+13 Mar 2023 12:54:23,303 TRACE org.example.CarsDBRepository 37 add - Enter saving taskId=0 Tesla Model S 2019 
+13 Mar 2023 12:54:23,304 TRACE org.example.JdbcUtils 48 getConnection - Enter
+13 Mar 2023 12:54:23,305 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+13 Mar 2023 12:54:23,307 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+13 Mar 2023 12:54:23,308 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+13 Mar 2023 12:54:23,309 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+13 Mar 2023 12:54:23,316 ERROR org.example.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+13 Mar 2023 12:54:23,319 TRACE org.example.JdbcUtils 57 getConnection - Exit
