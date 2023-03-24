@@ -1,0 +1,259 @@
+15 Mar 2023 17:29:53,771 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 17:29:53,779 TRACE repository.AngajatRepoBD 73 save - Enter saving taskdomain.Angajat@4a7f959b 
+15 Mar 2023 17:29:53,780 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 17:29:53,780 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 17:29:53,780 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 17:29:53,781 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 17:29:53,781 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 17:29:53,959 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fa51cd4)
+15 Mar 2023 17:29:53,966 TRACE repository.AngajatRepoBD 79 save - Saved 1 instances
+15 Mar 2023 17:29:53,967 TRACE repository.AngajatRepoBD 84 save - Exit
+15 Mar 2023 17:29:53,967 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 17:29:53,968 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 17:29:53,968 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fa51cd4)
+15 Mar 2023 17:29:53,969 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@5890e879, domain.Angajat@6440112d])
+15 Mar 2023 17:31:19,229 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 17:31:19,236 TRACE repository.AngajatRepoBD 88 delete - Enter
+15 Mar 2023 17:31:19,237 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 17:31:19,237 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 17:31:19,237 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 17:31:19,238 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 17:31:19,238 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 17:31:19,461 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 17:31:19,462 TRACE repository.AngajatRepoBD 51 findOne - Enter
+15 Mar 2023 17:31:19,462 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 17:31:19,462 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 17:31:19,473 TRACE repository.AngajatRepoBD 94 delete - Deleted 1 instances
+15 Mar 2023 17:31:19,473 TRACE repository.AngajatRepoBD 99 delete - Exit
+15 Mar 2023 17:31:19,474 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 17:31:19,474 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 17:31:19,475 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 17:31:19,475 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@268f106e])
+15 Mar 2023 18:47:24,066 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 18:47:24,077 TRACE repository.AngajatRepoBD 88 delete - Enter
+15 Mar 2023 18:47:24,078 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:47:24,079 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 18:47:24,080 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 18:47:24,080 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 18:47:24,081 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 18:47:24,524 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 18:47:24,525 TRACE repository.AngajatRepoBD 51 findOne - Enter
+15 Mar 2023 18:47:24,525 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:47:24,526 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 18:47:24,539 TRACE repository.AngajatRepoBD 67 findOne - Exit with([])
+15 Mar 2023 18:47:24,541 TRACE repository.AngajatRepoBD 94 delete - Deleted 0 instances
+15 Mar 2023 18:47:24,543 TRACE repository.AngajatRepoBD 99 delete - Exit
+15 Mar 2023 18:47:24,544 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 18:47:24,545 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:47:24,547 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 18:47:24,549 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@268f106e])
+15 Mar 2023 18:47:24,556 INFO  repository.ClientiRepoBD 23 <init> - Initializing ClientiRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 18:47:24,560 TRACE repository.ClientiRepoBD 80 save - Enter saving taskdomain.Client@31ea9581 
+15 Mar 2023 18:47:24,561 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:47:24,561 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 18:47:24,562 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 18:47:24,563 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 18:47:24,564 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 18:47:24,566 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+15 Mar 2023 18:47:24,576 TRACE repository.ClientiRepoBD 88 save - Saved 1 instances
+15 Mar 2023 18:47:24,576 TRACE repository.ClientiRepoBD 93 save - Exit
+15 Mar 2023 18:49:15,031 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 18:49:15,040 TRACE repository.AngajatRepoBD 88 delete - Enter
+15 Mar 2023 18:49:15,041 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:49:15,041 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 18:49:15,041 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 18:49:15,042 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 18:49:15,042 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 18:49:15,536 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 18:49:15,537 TRACE repository.AngajatRepoBD 51 findOne - Enter
+15 Mar 2023 18:49:15,538 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:49:15,539 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 18:49:15,549 TRACE repository.AngajatRepoBD 67 findOne - Exit with([])
+15 Mar 2023 18:49:15,550 TRACE repository.AngajatRepoBD 94 delete - Deleted 0 instances
+15 Mar 2023 18:49:15,551 TRACE repository.AngajatRepoBD 99 delete - Exit
+15 Mar 2023 18:49:15,552 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 18:49:15,552 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:49:15,553 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 18:49:15,554 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@268f106e])
+15 Mar 2023 18:49:15,560 INFO  repository.ClientiRepoBD 23 <init> - Initializing ClientiRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 18:49:15,562 TRACE repository.ClientiRepoBD 80 save - Enter saving taskdomain.Client@31ea9581 
+15 Mar 2023 18:49:15,563 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:49:15,563 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 18:49:15,564 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 18:49:15,564 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 18:49:15,565 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 18:49:15,566 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+15 Mar 2023 18:49:15,578 TRACE repository.ClientiRepoBD 88 save - Saved 1 instances
+15 Mar 2023 18:49:15,579 TRACE repository.ClientiRepoBD 93 save - Exit
+15 Mar 2023 18:49:15,579 TRACE repository.ClientiRepoBD 55 findOne - Enter
+15 Mar 2023 18:49:15,580 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:49:15,581 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+15 Mar 2023 18:49:15,583 TRACE repository.ClientiRepoBD 118 update - Enter
+15 Mar 2023 18:49:15,584 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 18:49:15,584 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+15 Mar 2023 18:49:15,592 TRACE repository.ClientiRepoBD 127 update - Updated 1 instances
+15 Mar 2023 18:49:15,593 TRACE repository.ClientiRepoBD 132 update - Exit
+15 Mar 2023 19:12:35,589 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:12:35,600 TRACE repository.AngajatRepoBD 88 delete - Enter
+15 Mar 2023 19:12:35,601 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:12:35,601 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:12:35,602 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:12:35,602 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:12:35,603 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:12:35,921 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:12:35,921 TRACE repository.AngajatRepoBD 51 findOne - Enter
+15 Mar 2023 19:12:35,922 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:12:35,922 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:12:35,928 TRACE repository.AngajatRepoBD 67 findOne - Exit with([])
+15 Mar 2023 19:12:35,929 TRACE repository.AngajatRepoBD 94 delete - Deleted 0 instances
+15 Mar 2023 19:12:35,930 TRACE repository.AngajatRepoBD 99 delete - Exit
+15 Mar 2023 19:12:35,931 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 19:12:35,931 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:12:35,931 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:12:35,932 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@268f106e])
+15 Mar 2023 19:12:35,937 INFO  repository.ClientiRepoBD 23 <init> - Initializing ClientiRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:12:35,938 TRACE repository.ClientiRepoBD 55 findOne - Enter
+15 Mar 2023 19:12:35,938 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:12:35,939 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:12:35,939 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:12:35,940 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:12:35,940 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:12:35,942 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:12:35,944 TRACE repository.ClientiRepoBD 118 update - Enter
+15 Mar 2023 19:12:35,945 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:12:35,945 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:12:35,951 TRACE repository.ClientiRepoBD 127 update - Updated 1 instances
+15 Mar 2023 19:12:35,952 TRACE repository.ClientiRepoBD 132 update - Exit
+15 Mar 2023 19:35:35,515 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:35:35,524 TRACE repository.AngajatRepoBD 88 delete - Enter
+15 Mar 2023 19:35:35,525 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:35:35,525 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:35:35,526 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:35:35,526 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:35:35,527 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:35:35,853 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:35:35,854 TRACE repository.AngajatRepoBD 51 findOne - Enter
+15 Mar 2023 19:35:35,855 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:35:35,856 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:35:35,864 TRACE repository.AngajatRepoBD 67 findOne - Exit with([])
+15 Mar 2023 19:35:35,866 TRACE repository.AngajatRepoBD 94 delete - Deleted 0 instances
+15 Mar 2023 19:35:35,867 TRACE repository.AngajatRepoBD 99 delete - Exit
+15 Mar 2023 19:35:35,867 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 19:35:35,869 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:35:35,869 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:35:35,871 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@268f106e])
+15 Mar 2023 19:35:35,877 INFO  repository.ClientiRepoBD 23 <init> - Initializing ClientiRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:35:35,877 TRACE repository.ClientiRepoBD 55 findOne - Enter
+15 Mar 2023 19:35:35,878 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:35:35,878 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:35:35,879 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:35:35,880 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:35:35,880 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:35:35,882 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:35:35,886 TRACE repository.ClientiRepoBD 118 update - Enter
+15 Mar 2023 19:35:35,886 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:35:35,887 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:35:35,888 TRACE repository.ClientiRepoBD 127 update - Updated 1 instances
+15 Mar 2023 19:35:35,889 TRACE repository.ClientiRepoBD 132 update - Exit
+15 Mar 2023 19:35:35,894 INFO  repository.ExcursieRepoBD 25 <init> - Initializing ExcursieRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:35:35,899 TRACE repository.ExcursieRepoBD 85 save - Enter saving taskdomain.Excursie@183ec003 
+15 Mar 2023 19:35:35,900 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:35:35,901 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:35:35,902 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:35:35,902 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:35:35,903 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:35:35,905 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7d9d0818)
+15 Mar 2023 19:35:35,912 ERROR repository.ExcursieRepoBD 96 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (4 values for 5 columns)
+15 Mar 2023 19:35:35,913 TRACE repository.ExcursieRepoBD 99 save - Exit
+15 Mar 2023 19:36:10,233 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:36:10,244 TRACE repository.AngajatRepoBD 88 delete - Enter
+15 Mar 2023 19:36:10,244 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:10,245 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:36:10,245 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:36:10,245 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:36:10,246 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:36:10,577 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:36:10,577 TRACE repository.AngajatRepoBD 51 findOne - Enter
+15 Mar 2023 19:36:10,578 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:10,578 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:36:10,583 TRACE repository.AngajatRepoBD 67 findOne - Exit with([])
+15 Mar 2023 19:36:10,584 TRACE repository.AngajatRepoBD 94 delete - Deleted 0 instances
+15 Mar 2023 19:36:10,584 TRACE repository.AngajatRepoBD 99 delete - Exit
+15 Mar 2023 19:36:10,585 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 19:36:10,585 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:10,586 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:36:10,587 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@268f106e])
+15 Mar 2023 19:36:10,592 INFO  repository.ClientiRepoBD 23 <init> - Initializing ClientiRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:36:10,592 TRACE repository.ClientiRepoBD 55 findOne - Enter
+15 Mar 2023 19:36:10,593 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:10,593 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:36:10,593 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:36:10,594 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:36:10,594 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:36:10,596 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:36:10,597 TRACE repository.ClientiRepoBD 118 update - Enter
+15 Mar 2023 19:36:10,597 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:10,598 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:36:10,599 TRACE repository.ClientiRepoBD 127 update - Updated 1 instances
+15 Mar 2023 19:36:10,599 TRACE repository.ClientiRepoBD 132 update - Exit
+15 Mar 2023 19:36:10,603 INFO  repository.ExcursieRepoBD 25 <init> - Initializing ExcursieRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:36:10,606 TRACE repository.ExcursieRepoBD 85 save - Enter saving taskdomain.Excursie@183ec003 
+15 Mar 2023 19:36:10,607 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:10,608 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:36:10,608 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:36:10,608 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:36:10,608 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:36:10,610 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7d9d0818)
+15 Mar 2023 19:36:10,614 ERROR repository.ExcursieRepoBD 96 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (4 values for 5 columns)
+15 Mar 2023 19:36:10,615 TRACE repository.ExcursieRepoBD 99 save - Exit
+15 Mar 2023 19:36:33,533 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:36:33,543 TRACE repository.AngajatRepoBD 88 delete - Enter
+15 Mar 2023 19:36:33,543 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:33,544 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:36:33,544 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:36:33,545 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:36:33,545 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:36:33,873 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:36:33,873 TRACE repository.AngajatRepoBD 51 findOne - Enter
+15 Mar 2023 19:36:33,874 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:33,874 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:36:33,880 TRACE repository.AngajatRepoBD 67 findOne - Exit with([])
+15 Mar 2023 19:36:33,881 TRACE repository.AngajatRepoBD 94 delete - Deleted 0 instances
+15 Mar 2023 19:36:33,882 TRACE repository.AngajatRepoBD 99 delete - Exit
+15 Mar 2023 19:36:33,882 TRACE repository.AngajatRepoBD 29 findAll - Enter
+15 Mar 2023 19:36:33,882 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:33,883 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+15 Mar 2023 19:36:33,884 TRACE repository.AngajatRepoBD 45 findAll - Exit with([domain.Angajat@268f106e])
+15 Mar 2023 19:36:33,887 INFO  repository.ClientiRepoBD 23 <init> - Initializing ClientiRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:36:33,888 TRACE repository.ClientiRepoBD 55 findOne - Enter
+15 Mar 2023 19:36:33,888 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:33,888 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:36:33,888 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:36:33,889 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:36:33,889 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:36:33,891 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:36:33,892 TRACE repository.ClientiRepoBD 118 update - Enter
+15 Mar 2023 19:36:33,893 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:33,893 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+15 Mar 2023 19:36:33,894 TRACE repository.ClientiRepoBD 127 update - Updated 1 instances
+15 Mar 2023 19:36:33,895 TRACE repository.ClientiRepoBD 132 update - Exit
+15 Mar 2023 19:36:33,898 INFO  repository.ExcursieRepoBD 25 <init> - Initializing ExcursieRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+15 Mar 2023 19:36:33,902 TRACE repository.ExcursieRepoBD 85 save - Enter saving taskdomain.Excursie@183ec003 
+15 Mar 2023 19:36:33,903 TRACE repository.JdbcUtils 48 getConnection - Enter
+15 Mar 2023 19:36:33,903 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+15 Mar 2023 19:36:33,903 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+15 Mar 2023 19:36:33,904 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+15 Mar 2023 19:36:33,904 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+15 Mar 2023 19:36:33,905 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7d9d0818)
+15 Mar 2023 19:36:33,914 TRACE repository.ExcursieRepoBD 94 save - Saved 1 instances
+15 Mar 2023 19:36:33,915 TRACE repository.ExcursieRepoBD 99 save - Exit
+17 Mar 2023 15:03:11,976 INFO  repository.AngajatRepoBD 24 <init> - Initializing AngajatRepoBD with properties: {jdbc.url=jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db} 
+17 Mar 2023 15:03:11,985 TRACE repository.AngajatRepoBD 73 save - Enter saving taskdomain.Angajat@429bffaa 
+17 Mar 2023 15:03:11,986 TRACE repository.JdbcUtils 48 getConnection - Enter
+17 Mar 2023 15:03:11,986 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2023 15:03:11,987 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Diana\Documents\AN_II_SEM_2\MPP\Tema_LAB_2_JAVA\ex6.db
+17 Mar 2023 15:03:11,987 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2023 15:03:11,988 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2023 15:03:12,349 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2767e23c)
+17 Mar 2023 15:03:12,361 TRACE repository.AngajatRepoBD 79 save - Saved 1 instances
+17 Mar 2023 15:03:12,362 TRACE repository.AngajatRepoBD 84 save - Exit
