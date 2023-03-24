@@ -1,0 +1,12 @@
+%2.
+% a. Sa se scrie un predicat care determina cel mai mic multiplu comun
+% al elementelor unei liste formate din numere intregi.
+
+cmmdc(X,Y,R) :- X =:= Y, R is X.
+cmmdc(X,Y,R) :- X > Y, D is X-Y, cmmdc(D,Y,R).
+cmmdc(X,Y,R) :- X < Y, D is Y-X, cmmdc(X,D,R).
+cmmmc(X,Y,A) :- P is X*Y, cmmdc(X,Y,R), A is P/R.%return A=cmmmc.
+
+cmmcL([H|_],0) :- H=:=0. %daca e vida, return 1
+cmmcL([H],H) :- H=\=0.
+cmmcL([H|T],Rez) :- cmmcL(T,RezT), cmmmc(H,RezT,Rez).

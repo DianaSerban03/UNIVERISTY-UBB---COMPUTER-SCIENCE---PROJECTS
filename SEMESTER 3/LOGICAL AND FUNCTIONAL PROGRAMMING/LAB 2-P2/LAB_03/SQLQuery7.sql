@@ -1,0 +1,6 @@
+CREATE PROCEDURE AddCamp
+AS
+BEGIN
+  ALTER TABLE Vacante
+  ADD nr_zile INT
+END
