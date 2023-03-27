@@ -1,0 +1,35 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#header{
+	border: 3px solid black;
+    background-color: CadetBlue;
+    height: 20%;
+}
+#oriz{
+    border: 3px solid gray;
+    background-color: Cornsilk;
+    float: left;
+    height: 60%;
+    list-style-type: none;
+    width:10%;
+    padding: 0;
+
+}
+#main{
+    border: 3px solid black;
+    background-color: CadetBlue;
+    height: 60%;
+}
+#footer{
+    border: 3px solid gray;
+    background-color: Cornsilk;
+    height: 15%;
+}
+#oriz li{
+    border-right: 1px solid black;}
+* {
+    margin: 0;
+}

@@ -1,0 +1,34 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#header{
+	border: 3px solid black;
+    background-color: CadetBlue;
+    height: 20%;
+}
+#oriz{
+    border: 3px solid gray;
+    background-color: Cornsilk;
+
+}
+#main{
+    border: 3px solid black;
+    background-color: CadetBlue;
+    height: 60%;
+}
+#footer{
+    border: 3px solid gray;
+    background-color: Cornsilk;
+    height: 15%;
+}
+#oriz li{
+    display: inline-block;
+    border-right: 1px solid black;
+    padding-left: 6%;
+    padding-right: 6%;
+    }
+* {
+    margin: 0;
+}

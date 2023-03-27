@@ -1,0 +1,103 @@
+#menu {
+	display:table;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table-cell;
+	height: 65px;
+}
+
+.img {
+	left: 0px;
+	width: 70px;
+}
+
+#i1 {
+	background: url('icons.png') 0 -70px;
+}
+#i1:hover {
+	background: url('icons.png') 0 0px;
+}
+
+
+#i2 {
+	background: url('icons.png') -70px -70px;
+}
+#i2:hover {
+	background: url('icons.png') -70px 0px;
+}
+
+
+#i3 {
+	background: url('icons.png') -140px -70px;
+}
+#i3:hover {
+	background: url('icons.png') -140px 0px;
+}
+
+
+#i4 {
+	background: url('icons.png') -210px -70px;
+}
+#i4:hover {
+	background: url('icons.png') -210px 0px;
+}
+
+
+#i5 {
+	background: url('icons.png') -280px -70px;
+}
+#i5:hover {
+	background: url('icons.png') -280px 0px;
+}
+
+
+#i6 {
+	background: url('icons.png') -350px -70px;
+}
+#i6:hover {
+	background: url('icons.png') -350px 0px;
+}
+
+
+#i7 {
+	background: url('icons.png') -420px -70px;
+}
+#i7:hover {
+	background: url('icons.png') -420px 0px;
+}
+
+
+#i8 {
+	background: url('icons.png') -490px -70px;
+}
+#i8:hover {
+	background: url('icons.png') -490px 0px;
+}
+
+
+#i9 {
+	background: url('icons.png') -560px -70px;
+}
+#i9:hover {
+	background: url('icons.png') -560px 0px;
+}
+
+
+#i10 {
+	background: url('icons.png') -630px -70px;
+}
+#i10:hover {
+	background: url('icons.png') -630px 0px;
+}
+
+
+#i11 {
+	background: url('icons.png') -700px -70px;
+}
+#i11:hover {
+	background: url('icons.png') -700px 0px;
+}

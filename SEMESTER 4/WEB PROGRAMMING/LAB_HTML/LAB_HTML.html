@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+   <html lang="en">
+       <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+           <title>HOTEL FORMULAR</title>
+        </head>
+      <body>
+      	<img src="sigla.png" alt="Sigla hotel" width="100" height="100">
+      	<h1>FORMULAR DE INREGISTRARE HOTEL</h1>
+      	<br>
+      	<ul>
+      		<li>Completati si trimiteti acest formular pana la data de <span>31 mai 2023</span>, la:</li>
+      		<li>E-mail: hotelMonopoly@gmail.com</li>
+      	    <li>Telefon: 0713 273 273</li>
+      		<li>Adresa: Str. Victor Babes, nr 4, Bucuresti</li>
+      		<li>Mai multe informarii gasiti accesand: <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwirqvCYwcr9AhVX43cKHYbLDd8YABAAGgJlZg&ohost=www.google.com&cid=CAESa-D2NO3ynUxLExbs2rbizpQCNznef9UfIigXWJ5hf7AElRx0t_bGjJm_GvFGQUO1OYWTn25GjmhS-sqVAlwT4BdzZEJdClTfcCMk3BEmo_nD_RHmRat9sSzRUSUYPBODq-xBDXGdtgKeEX2X&sig=AOD64_3F0QCyLAQNdRnnvo-8yEf0iloOIA&q&adurl&ved=2ahUKEwj41OeYwcr9AhUcyAIHHd8UA0gQ0Qx6BAgKEAE" target="_blank">Visit Hotel Monopoly!</a></li>
+      	</ul>
+      	<table id="sudoku">
+          <tbody>
+      		<tr><th colspan="4"><b>PARTICIPANT</b> (rugam completati cu majuscule)</th></tr>
+      		<tr><td colspan="1">
+                   <form>
+                   	  <fieldset>
+                   	  	<label for="nume">Nume:</label>
+                   	  	<input type="text" name="nume" id="nume">
+                   	  </fieldset>
+                   </form></td>
+      			<td colspan="3">
+      				<form>
+                   	  <fieldset>
+                   	  	<label for="prenume">Prenume:</label>
+                   	  	<input type="text" name="prenume" id="prenume">
+                   	  </fieldset>
+                   </form></td>
+      		</tr>
+      		<tr><td colspan="1">
+                    <form>
+                   	  <fieldset>
+                   	  	<label for="i/f">Instituție/Firmă:</label>
+                   	  	<input type="text" name="i/f" id="i/f">
+                   	  </fieldset>
+                   </form></td>
+      			<td colspan="3">
+                    <form>
+                   	  <fieldset>
+                   	  	<label for="fct">Funcție:</label>
+                   	  	<input type="text" name="fct" id="fct">
+                   	  </fieldset>
+                   </form></td>
+      		</tr>
+      		<tr><td colspan="1">
+                    <form>
+                   	  <fieldset>
+                   	  	<label for="adr">Adresa Institutie/Firma:</label>
+                   	  	<input type="text" name="adr" id="adr">
+                   	  </fieldset>
+                   </form></td>
+      			<td colspan="1">
+                    <form>
+                   	  	<label for="oras">Oras:</label>
+                   	  	<select id="oras" name="oras">
+                   	  		<option value="cluj-Napoca">Cluj-Napoca</option>
+                   	  		<option value="bucuresti">Bucuresti</option>
+                   	  		<option value="timisoara">Timisoara</option>
+                   	  		<option value="sibiu">Sibiu</option>
+                   	  		<option value="brasov">Brasov</option>
+                        </select>
+                   </form></td>
+      			<td colspan="1">
+                   <form>
+                   	  <fieldset>
+                   	  	<label for="cod">Cod:</label>
+                   	  	<input type="text" name="cod" id="cod">
+                   	  </fieldset>
+                   </form></td>
+      			<td colspan="1">
+                    <form>
+                   	  <fieldset>
+                   	  	<label for="judet">Judet:</label>
+                   	  	<input type="text" name="judet" id="judet">
+                   	  </fieldset>
+                   </form></td>
+      		</tr>
+            <tr><th rowspan="2">BANCA</th></tr>
+      		<tr><td colspan="4">
+      			<table id="sudoku1">
+                <tr><td>
+                   <form>
+                   	  <fieldset>
+                   	  	<label for="cui">C.U.I.:</label>
+                   	  	<input type="text" name="cui" id="cui">
+                   	  </fieldset>
+                   </form>
+      		    </td></tr>
+      		    <tr><td>
+                   <form>
+                   	  	<label for="banca">Banca:</label>
+                   	  	<select id="banca" name="banca">
+                   	  		<option value="bt">Banca Transilvania</option>
+                   	  		<option value="brd">BRD</option>
+                   	  		<option value="raiffeisei">Raiffeinsen Bank</option>
+                   	  		<option value="bcr">BCR</option>
+                   	  		<option value="ing">ING Bank</option>
+                        </select>
+                   </form>
+      		    </td></tr>
+      		    <tr><td>
+                    <form>
+                   	  <fieldset>
+                   	  	<label for="iban">Cod IBAN:</label>
+                   	  	<input type="text" name="iban" id="iban">
+                   	  </fieldset>
+                   </form>
+      		    </td></tr>
+            </table></td></tr>
+      		<tr>
+      			<td colspan="1">
+                   <form>
+                   	  <fieldset>
+                   	  	<label for="telefon">Telefon:</label>
+                   	  	<input type="text" name="telefon" id="telefon" maxlength="10" size="10">
+                   	  </fieldset>
+                   </form>
+      			</td>
+      			<td colspan="1">
+                   <form>
+                   	  <fieldset>
+                   	  	<label for="fax">Fax:</label>
+                   	  	<input type="text" name="fax" id="fax" disabled>
+                   	  </fieldset>
+                   </form>
+      			</td>
+      			<td colspan="2">
+                   <form>
+                   	  <fieldset>
+                   	  	<label for="email">>E-mail:</label>
+                   	  	<input type="text" name="email" id="email">
+                   	  </fieldset>
+                   </form>
+      			</td>
+      		</tr>
+
+          </tbody>
+      	</table>
+      <h2>
+      	<b>Rezervare hotel</b>
+      </h2>
+      <ol start="1">
+      	<li>
+      		<form>
+               <label for="sosire">Data sosirii:</label>
+               <input type="date" id="sosire" name="sosire" step="1" max="2026-01-01">
+            </form>
+      	</li>
+      	<li>
+      		<form>
+               <label for="plecare">Data plecarii:</label>
+               <input type="date" id="plecare" name="plecare" step="2">
+            </form>
+      	</li>
+      	<li>Nr nopti:
+      		<form>
+      			<input type="radio" id="1" name="1" value="1" checked>
+           <label for="1">1</label><br>
+                <input type="radio" id="2" name="2" value="2">
+           <label for="2">2</label><br>
+                <input type="radio" id="3" name="3" value="3">
+           <label for="3">3</label><br>
+                <input type="radio" id="4" name="4" value="4">
+           <label for="4">4</label><br>
+                <input type="radio" id="5" name="5" value="5">
+           <label for="5">5</label><br>
+                <input type="radio" id="6" name="6" value="6">
+           <label for="6">6</label><br>
+            </form>
+      	</li>
+      	<li>Numar de camere dorite: 
+      	  <div class="checkbox-container">
+		    <label><input type="checkbox" name="option1" value="1"> 1</label>
+		    <label><input type="checkbox" name="option2" value="2"> 2</label>
+		    <label><input type="checkbox" name="option3" value="3"> 3</label>
+		    <label><input type="checkbox" name="option4" value="3"> 4</label>
+		    <label><input type="checkbox" name="option5" value="3"> 5</label>
+		    <label><input type="checkbox" name="option6" value="3"> 6</label>
+		    <label><input type="checkbox" name="option7" value="3"> 7</label>
+		    <label><input type="checkbox" name="option8" value="3"> 8</label>
+	     </div>
+      	</li>
+      	<li>Tip de camere dorite (alegeti-le pe toate pe care doriti): 
+      	  <div class="checkbox-container">
+		    <label><input type="checkbox" name="option1" value="1"> single</label>
+		    <form>
+                   	<label for="nr_nopti">si cate astfel de camere doriti</label>
+                  	<select id="nr_nopti" name="nr_nopti">
+               	  		<option value="1">1</option>
+               	  		<option value="2" selected>2</option>
+               	  		<option value="3">3</option>
+                    </select>
+            </form><br>
+		    <label><input type="checkbox" name="option2" value="2"> double</label>
+		    <form>
+                   	<label for="nr_nopti1">si cate astfel de camere doriti</label>
+                  	<select id="nr_nopti1" name="nr_nopti1">
+               	  		<option value="1">1</option>
+               	  		<option value="2">2</option>
+               	  		<option value="3">3</option>
+                    </select>
+            </form><br>
+		    <label><input type="checkbox" name="option3" value="3"> triple</label>
+		    <form>
+                   	<label for="nr_nopti2">si cate astfel de camere doriti</label>
+                  	<select id="nr_nopti2" name="nr_nopti2">
+               	  		<option value="1">1</option>
+               	  		<option value="2">2</option>
+               	  		<option value="3">3</option>
+                    </select>
+            </form><br>
+	     </div>
+      	</li>
+      </ol>
+      <h2>
+      	<b>Preturi</b>
+      </h2>
+      <table>
+      	<tr>
+      		<th>Hotel</th>
+      		<th>Single room <strong>(EURO)</strong></th>
+      		<th>Double room <strong>(EURO)</strong></th>
+      		<th>Triple room <strong>(EURO)</strong></th>
+      	</tr>
+      	<tr>
+      		<td>Cluj-Napoca</td>
+      		<td><strong>79</strong></td>
+      		<td><strong>89</strong></td>
+      		<td><strong>99</strong></td>
+      	</tr>
+      	<tr>
+      		<td>Bucuresti</td>
+      		<td><strong>89</strong></td>
+      		<td><strong>99</strong></td>
+      		<td><strong>109</strong></td>
+      	</tr>
+      	<tr>
+      		<td>Brasov</td>
+      		<td><strong>69</strong></td>
+      		<td><strong>79</strong></td>
+      		<td><strong>89</strong></td>
+      	</tr>
+      </table>
+      <h2>
+      	<b>Alte informatii</b>
+      </h2>
+      <form>
+        <fieldset>
+           <legend>INFORMATII:</legend>
+           <input type="text" id="10" name="10" value="Introduceti poza cu buletinul: " readonly>
+           <label for="files">Select files:</label>
+           <input type="file" id="files" name="files" multiple><br>
+           Observatii:
+           <p><textarea id="7" name="7" rows="4" cols="50"></textarea></p>
+        </fieldset>  
+      </form>
+      </body>
+    </html>
